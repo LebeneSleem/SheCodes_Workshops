@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Week1 Homework</title>
+    <style>
+      .main {
+        display: block;
+        text-align: center;
+      }
+      .heading {
+        font-weight: bold;
+        font-size: 34px;
+        color: #1a64d6;
+      }
+      .sub-heading {
+        font-size: 30px;
+      }
+      .second-temp {
+        font-weight: bold;
+      }
+      .day {
+        font-weight: bold;
+        font-size: 25px;
+        transition: all 200ms ease-in-out;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 300px;
+        border-radius: 10px;
+      }
+      .day:hover {
+        background: rgba(255, 182, 193, 0.1);
+      }
+      .temp {
+        color: gray;
+        font-weight: lighter;
+        padding: 20px;
+        margin: 18px auto;
+      }
+      button {
+        margin: 20px auto;
+        background: blue;
+        color: white;
+        border-radius: 30px;
+        font-size: 16px;
+        border: 1px solid blue;
+        padding: 15px 20px;
+        line-height: 22px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: white;
+        color: blue;
+        cursor: pointer;
+      }
+      .footer {
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="heading">
+        ⛅
+        <br />
+        Currently 21&deg; in Tokyo
+      </div>
+      <div class="sub-heading">
+        13&deg; / <span class="second-temp">23&deg;</span>
+      </div>
+
+      <div class="day">
+        🌧️Tomorrow
+        <br />
+        <span class="temp"
+          >10&deg; / <span class="second-temp">22&deg;</span></span
+        >
+      </div>
+      <div class="day">
+        🌥️Saturday
+        <br />
+        <span class="temp"
+          >15&deg; / <span class="second-temp">17&deg;</span></span
+        >
+      </div>
+      <div class="day">
+        ☀️Sunday
+        <br />
+        <span class="temp"
+          >25&deg; / <span class="second-temp">28&deg;</span></span
+        >
+      </div>
+      <button>Change city</button>
+      <div class="footer">Coded by Lebene Gbebleou-Sleem</div>
+    </div>
+  </body>
+</html>
